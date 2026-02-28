@@ -5,7 +5,7 @@ import { useAgentChat } from "@cloudflare/ai-chat/react";
 
 const themes = {
   cloudflare: {
-    name: "Cloudflare",
+    name: "cloudflare",
     bg: "#0f0f0f", border: "#1e1e1e", cardBg: "#161616", cardBorder: "#2a2a2a",
     text: "#e0e0e0", textMuted: "#888", textDim: "#555", textFaint: "#333",
     accent: "#f6821f", accentText: "#000", inputBg: "#161616", roleColor: "#f6821f",
@@ -13,8 +13,8 @@ const themes = {
     rejectBg: "#2a1a1a", rejectText: "#888", rejectBorder: "#3a2a2a",
     tabBg: "#161616", tabActiveBg: "#0f0f0f", tabText: "#555", tabActiveText: "#e0e0e0",
   },
-  nord: {
-    name: "Nord",
+  blue: {
+    name: "blue",
     bg: "#1a1f2e", border: "#252d3d", cardBg: "#1e2535", cardBorder: "#2e3a4e",
     text: "#d8dee9", textMuted: "#7a8ba0", textDim: "#4c5a6e", textFaint: "#2e3a4e",
     accent: "#88c0d0", accentText: "#1a1f2e", inputBg: "#1e2535", roleColor: "#88c0d0",
@@ -22,8 +22,8 @@ const themes = {
     rejectBg: "#2a2530", rejectText: "#7a8ba0", rejectBorder: "#3a3545",
     tabBg: "#1e2535", tabActiveBg: "#1a1f2e", tabText: "#4c5a6e", tabActiveText: "#d8dee9",
   },
-  dracula: {
-    name: "Dracula",
+  pinkish: {
+    name: "pinkish",
     bg: "#282a36", border: "#363848", cardBg: "#2f3241", cardBorder: "#44475a",
     text: "#f8f8f2", textMuted: "#9a9bb5", textDim: "#6272a4", textFaint: "#44475a",
     accent: "#ff79c6", accentText: "#282a36", inputBg: "#2f3241", roleColor: "#ff79c6",
@@ -32,7 +32,7 @@ const themes = {
     tabBg: "#2f3241", tabActiveBg: "#282a36", tabText: "#6272a4", tabActiveText: "#f8f8f2",
   },
   light: {
-    name: "Light",
+    name: "light",
     bg: "#f5f5f5", border: "#e0e0e0", cardBg: "#ffffff", cardBorder: "#e0e0e0",
     text: "#1a1a1a", textMuted: "#666", textDim: "#999", textFaint: "#ccc",
     accent: "#f6821f", accentText: "#fff", inputBg: "#ffffff", roleColor: "#f6821f",
@@ -43,7 +43,7 @@ const themes = {
 };
 
 const themeAccents = {
-  cloudflare: "#f6821f", nord: "#88c0d0", dracula: "#ff79c6", light: "#f6821f",
+  cloudflare: "#f6821f", blue: "#88c0d0", pinkish: "#ff79c6", light: "#f6821f",
 };
 
 const getStyles = (t) => `
