@@ -3,6 +3,9 @@ import react from "@vitejs/plugin-react";
 
 export default defineConfig({
   plugins: [react()],
+  build: {
+    outDir: "dist",
+  },
   server: {
     proxy: {
       "/agents": {
@@ -11,7 +14,7 @@ export default defineConfig({
       },
     },
     watch: {
-      ignored: ["**/worker-configuration.d.ts", "**/.wrangler/**"]
-    }
-  }
+      ignored: ["**/worker-configuration.d.ts", "**/.wrangler/**"],
+    },
+  },
 });
