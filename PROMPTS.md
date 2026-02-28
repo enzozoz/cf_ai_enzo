@@ -2,7 +2,6 @@
 I used Claude for the assignment to help debug during the initial beginnings of this project in addition to following Cloudflare's documentation on building a chat agent (found here: https://developers.cloudflare.com/agents/getting-started/build-a-chat-agent/)
 
 ## PROMPTS
-# 1: DEBUGGING
 **CONTEXT**
 This was during the set up process and when I had copied and pasted from the documentation, I got an error in the file from this line. I had initially pushed through but by the time we had supposedly added AI as part of the environmental variables, it wasn't there and the errors were not resolved. Hence, I asked Claude how to resolved it. 
 **PROMPT**
